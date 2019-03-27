@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/behindChessBoard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="10"
+        android:rowCount="5">
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/Spot1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Vacant"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:visibility="visible" />
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/Spot2"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Vacant"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/Spot3"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Vacant"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textDirection="firstStrongRtl" />
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/Spot4"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@color/colorPrimary"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:id="@+id/Spot5"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@color/colorPrimary"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot6"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot7"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot8"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot9"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot10"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot11"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot12"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot13"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot14"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot15"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot16"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot17"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot18"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot19"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:textSize="10dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/Spot20"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            android:text="Vacant"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:id="@+id/blank1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank2"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank3"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank4"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank5"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank6"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank7"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank8"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank9"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="2" />
+
+        <TextView
+            android:id="@+id/blank10"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="2" />
+
+
+
+    </GridLayout>
+
+</LinearLayout>

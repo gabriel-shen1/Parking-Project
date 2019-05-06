@@ -7,7 +7,7 @@
 * Andrew Schneeloch
 * Josh LoGiudice
 * Gabriel Shen
-* nthony Lau
+* Anthony Lau
 * Jahidul Islam
 * Yu Liu
 * Max Davatelis

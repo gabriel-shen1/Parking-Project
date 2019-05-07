@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ruparkingfinal">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GraphActivity"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CA_Lit12"
+            android:label="@string/title_activity_ca__lit12" />
+        <activity
+            android:name=".CA_Lot11"
+            android:label="@string/title_activity_ca__lot11" />
+        <activity
+            android:name=".CA_Lot7"
+            android:label="@string/title_activity_ca__lot7" />
+        <activity android:name=".College_Ave_Lots" />
+        <activity
+            android:name=".Livi_Lot105"
+            android:label="@string/title_activity_livi__lot105" />
+        <activity
+            android:name=".Livi_Lot101"
+            android:label="@string/title_activity_livi__lot101" />
+        <activity
+            android:name=".Livi_Yellow"
+            android:label="@string/title_activity_livi__yellow" />
+        <activity android:name=".LiviLots" />
+        <activity
+            android:name=".Busch_Lot51A"
+            android:label="@string/title_activity_busch__lot51" />
+        <activity
+            android:name=".Busch_Lot51"
+            android:label="@string/title_activity_busch__lot51" />
+        <activity
+            android:name=".Busch_Lot48"
+            android:label="@string/title_activity_busch__lot48" />
+        <activity android:name=".BuschLots" />
+        <activity
+            android:name=".SelectCampus"
+            android:label="@string/title_activity_select_campus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

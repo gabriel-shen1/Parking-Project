@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RUParking Final</string>
+    <string name="title_activity_select_campus">SelectCampus</string>
+    <string name="title_activity_busch__lot48">Map</string>
+    <string name="title_activity_busch__lot51">Map</string>
+    <string name="title_activity_livi__yellow">Map</string>
+    <string name="title_activity_livi__lot101">Map</string>
+    <string name="title_activity_livi__lot105">Map</string>
+    <string name="title_activity_ca__lot7">Map</string>
+    <string name="title_activity_ca__lot11">Map</string>
+    <string name="title_activity_ca__lit12">Map</string>
+</resources>
